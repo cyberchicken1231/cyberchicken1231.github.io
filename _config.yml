@@ -1,3 +1,21 @@
 title: "Moses's Tech Blog"
-theme: minima
 description: "random projects and things im working on"
+
+# Use Minimal Mistakes (GitHub Pages compatible)
+remote_theme: "mmistakes/minimal-mistakes"
+
+# Choose a skin (dark mode)
+minimal_mistakes_skin: "dark"
+
+# Required for Minimal Mistakes on GitHub Pages
+plugins:
+  - jekyll-include-cache
+
+# Navigation (optional – add pages later)
+# nav:
+#   - title: "Home"
+#     url: /
+#   - title: "About"
+#     url: /about/
+
+
