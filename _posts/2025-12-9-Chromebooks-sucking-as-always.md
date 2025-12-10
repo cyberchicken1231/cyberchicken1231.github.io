@@ -87,17 +87,17 @@ speaker-test -D hw:2,1
 speaker-test -D hw:3,1
 
 
-Hearing the test sound play through the chips felt like discovering water in a desert. It proved the hardware was alive after all. The software was the problem the entire time.
+By the time I finally managed to get sound output, I had suffered from three mental breakdowns, a filesystem collapse, and full knowledge of 15 different audio chip systems that I never wished to know.
 
 Step Eight: Manual Output Switching Because Of Course It Is Manual
 
-Headphone jack detection on this machine is not fully supported on Linux. So I switch outputs by hand like a tech support caveman.
+Headphone jack detection on this machine is not fully supported on Linux. So I have to frikin' switch outputs by hand like a tech support caveman.
 
 wpctl set-default 56     # headphones
 wpctl set-default 59     # speakers
 
 
-If I plug in headphones and expect it to switch automatically I will be disappointed.
+If I plug in headphones and expect it to switch automatically I will be very disappointed.
 
 Why This Whole Thing Felt Like Suffering
 
@@ -105,4 +105,4 @@ Fixing this was a long chain of tiny victories mixed with hours of staring at mi
 
 But in the end it works. Every piece is routed correctly. The speakers play. The headphones work. And now I understand Chromebook audio at a level I never wanted but will probably brag about anyway.
 
-If someone else hits this problem just know that the hardware is fine. The pain is only in the software.
+If someone else hits this problem just know that the hardware is fine. The pain is only in the software(and in the TWO AUDIO CHIPS, but that's a problem for later me).
